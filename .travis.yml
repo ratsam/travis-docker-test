@@ -1,0 +1,7 @@
+language: c
+
+services:
+  - docker
+
+script:
+  - docker run hscarbon/centos-ghc /bin/echo 'Hello world'
